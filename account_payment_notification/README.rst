@@ -122,10 +122,16 @@ promote its widespread use.
 .. |maintainer-yajo| image:: https://github.com/yajo.png?size=40px
     :target: https://github.com/yajo
     :alt: yajo
+.. |maintainer-elp| image:: https://github.com/elp.png?size=40px
+    :target: https://github.com/elp
+    :alt: elp
+.. |maintainer-rafaelbn| image:: https://github.com/rafaelbn.png?size=40px
+    :target: https://github.com/rafaelbn
+    :alt: rafaelbn
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-yajo| 
+|maintainer-yajo| |maintainer-elp| |maintainer-rafaelbn| 
 
 This module is part of the `OCA/account-payment <https://github.com/OCA/account-payment/tree/15.0/account_payment_notification>`_ project on GitHub.
 
