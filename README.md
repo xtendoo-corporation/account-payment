@@ -31,7 +31,7 @@ addon | version | maintainers | summary
 [account_due_list_payment_mode](account_due_list_payment_mode/) | 15.0.1.0.0 |  | Payment Due List Payment Mode
 [account_payment_batch_process](account_payment_batch_process/) | 15.0.1.0.0 |  | Account Batch Payments Processing for Customers Invoices and Supplier Invoices
 [account_payment_multi_deduction](account_payment_multi_deduction/) | 15.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Payment Register with Multiple Deduction
-[account_payment_notification](account_payment_notification/) | 15.0.1.0.1 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Notifiy upcoming payments
+[account_payment_notification](account_payment_notification/) | 15.0.1.1.0 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![elp](https://github.com/elp.png?size=30px)](https://github.com/elp) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | Notifiy upcoming payments
 [account_payment_promissory_note](account_payment_promissory_note/) | 15.0.1.0.2 |  | Account Payment Promissory Note
 [account_payment_return](account_payment_return/) | 15.0.1.0.4 |  | Manage the return of your payments
 [account_payment_return_import](account_payment_return_import/) | 15.0.1.0.1 |  | This module adds a generic wizard to import payment returnfile formats. Is only the base to be extended by anothermodules
