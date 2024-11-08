@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo-addon-account_cash_invoice>=16.0dev,<16.1dev',
         'odoo-addon-account_due_list>=16.0dev,<16.1dev',
         'odoo-addon-account_due_list_aging_comment>=16.0dev,<16.1dev',
+        'odoo-addon-account_due_list_days_overdue>=16.0dev,<16.1dev',
         'odoo-addon-account_due_list_payment_mode>=16.0dev,<16.1dev',
         'odoo-addon-account_move_line_payment>=16.0dev,<16.1dev',
         'odoo-addon-account_payment_batch_process>=16.0dev,<16.1dev',
