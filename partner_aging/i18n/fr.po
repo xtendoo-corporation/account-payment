@@ -136,6 +136,10 @@ msgstr "Date d'échéance"
 
 #. module: partner_aging
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_customer_aging_ad_search
+msgid "Group By"
+msgstr ""
+
+#. module: partner_aging
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_search
 msgid "Group By..."
 msgstr "Regrouper par..."
@@ -162,13 +166,6 @@ msgid "Invoice Date"
 msgstr "Date de la facture"
 
 #. module: partner_aging
-#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_customer____last_update
-#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_date____last_update
-#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_supplier____last_update
-msgid "Last Modified on"
-msgstr "Dernière modification le"
-
-#. module: partner_aging
 #: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_date__write_uid
 msgid "Last Updated by"
 msgstr "Dernière modification par"
@@ -183,6 +180,12 @@ msgstr "Mis à jour le"
 #: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_supplier__not_due
 msgid "Not Due Yet"
 msgstr "Pas encore dû"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_customer_aging_ad_tree
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_tree
+msgid "Open Document"
+msgstr ""
 
 #. module: partner_aging
 #: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_customer__invoice_ref
@@ -259,7 +262,9 @@ msgid "Total"
 msgstr "Total"
 
 #. module: partner_aging
-#: model_terms:ir.ui.view,arch_db:partner_aging.view_partner_aging_date
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_date
 msgid "or"
 msgstr "ou"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Dernière modification le"
