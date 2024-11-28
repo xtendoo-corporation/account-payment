@@ -33,12 +33,6 @@ class AccountMove(models.Model):
             payment_method_name = line_id.payment_method_line_id.name
         except AttributeError:
             payment_method_name = False
-        reconciled_partials = line_id.move_id._get_all_reconciled_invoice_partials()
-        is_exchange = any(
-            partial["is_exchange"]
-            for partial in reconciled_partials
-            if partial["aml_id"] == line_id.id
-        )
         return {
             "name": line_id.name,
             "journal_name": line_id.journal_id.name,
@@ -57,7 +51,7 @@ class AccountMove(models.Model):
             "payment_method_name": payment_method_name,
             "ref": "{} ({})".format(line_id.move_id.name, line_id.ref),
             "returned": is_return,
-            "is_exchange": is_exchange,
+            "is_exchange": False,
         }
 
     def _compute_payments_widget_reconciled_info(self):
